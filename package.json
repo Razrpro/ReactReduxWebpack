@@ -1,0 +1,37 @@
+{
+  "name": "appcafelk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "web": "webpack-dev-server -d --host 0.0.0.0 --port 3001 --inline --hot --colors"
+  },
+  "repository": "http://razr.ml:8081/appcafe/newlk.git",
+  "author": "AppCafe",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-styled-components": "^1.10.0",
+    "css-loader": "^2.1.0",
+    "redux-devtools": "^3.5.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-last-location": "^1.1.0",
+    "redux": "^1.0.0-rc",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3"
+  }
+}
